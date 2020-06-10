@@ -1,2 +1,0 @@
-# bwcvpolok
-Created with CodeSandbox

@@ -1,0 +1,405 @@
+body{
+	margin: 0;
+	padding: 0;
+
+}
+
+marquee{
+	
+	padding: 10px;
+	
+
+}
+
+.left{
+	overflow: hidden;
+	position: absolute;
+	width:475px;
+	background-color: #E7E7E7;
+	box-shadow: 5px 0px 4px #DAD8D9;
+}
+
+.left li a {
+	text-decoration: none;
+	color:#000;
+}
+
+.image{
+	text-align: center;
+	overflow: hidden;
+
+
+}
+
+.image img {
+	margin-top:30px;
+	width: 250px;
+	height: 250px;
+	border:2px solid #A0263A;
+	border-radius: 50%;
+	justify-content: center;
+
+}
+
+.image h1{
+	font-family:sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 27px;
+	color:#161415;
+}
+.image p{
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	font-family: sans-serif;
+	text-transform: uppercase;
+
+}
+
+.image ul li {
+	text-align: left;
+	font-weight: bold;
+	color:#000;
+	font-family: sans-serif;
+}
+
+
+
+.personal-details h2{
+	font-family: sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	margin-right: 100px; 
+	
+
+}
+.personal-details hr{
+	border: 1px dotted #7C7A7B;
+	width:86%;
+}
+
+.ps{
+	width: 90%;
+	overflow: hidden;
+
+
+}
+.col{
+	width: 50%;
+	float: left;
+}
+
+.col ul {
+	list-style:none;
+}
+
+span{
+	font-weight: lighter;
+}
+
+.skills{
+	
+	margin:0 auto;
+}
+
+.skills h2{
+	text-align: left;
+	font-family: sans-serif;
+	color:#000;
+	text-transform: uppercase;
+	margin-left: 40px; 
+
+}
+
+.skills hr{
+	border: 1px dotted #7C7A7B;
+	width:86%;
+	
+}
+.skills-content{
+	font-family: sans-serif;
+	width:80%;
+}
+.skills-col{
+	
+}
+
+.skills-col ul{
+	list-style: none;
+}
+
+.skills col li :{
+	color: #000;
+	margin: 20px 0;
+}
+
+.bar{
+	background: #353b48; 
+	display: block;
+	height: 5px;
+	border: 1px solid rgba(0,0,0.3);
+	border-radius: 3px;
+	/*box-shadow: 0 0 10px #2187e7b3; */
+	overflow: hidden;
+}
+.bar span{
+	height: 5px;
+	float: left;
+	background: #2187e7;
+}
+
+.html{
+	width: 97%;
+	animation: html 2s;
+}
+.css{
+	width:80%;
+	animation: css 2s;
+
+}
+.bootstrap{
+	width:90%;
+	animation: bootstrap 2s;
+}
+
+.jquery{
+	width:50%;
+	animation: jquery 2s;
+
+}
+
+.javascript{
+	width: 70%;
+	animation: javascript 2s;
+}
+
+.php{
+	width:40%;
+	animation: php 2s;
+}
+
+@keyframes html{
+	0%{
+		width:0%;
+	}
+	100%{
+		width:97%;
+	}
+}
+
+@keyframes css{
+	0%{
+		width:0%;
+	}
+	100%{
+		width:80%;
+	}
+}
+
+@keyframes bootstrap{
+	0%{
+		width:0%;
+	}
+	100%{
+		width:90%;
+	}
+}
+
+@keyframes javascript{
+	0%{
+		width:0%;
+	}
+	100%{
+		width:70%;
+	}
+}
+
+@keyframes jquery{
+	0%{
+		width:0%;
+	}
+	100%{
+		width:50%;
+	}
+}
+
+@keyframes php{
+	0%{
+		width:0%;
+	}
+	100%{
+		width:40%;
+	}
+}
+
+
+.knowledge{
+	overflow: hidden;
+}
+
+.knowledge h2{
+	text-align: left;
+	font-family: sans-serif;
+	color:#000;
+	text-transform: uppercase;
+	margin-left: 40px; 
+	margin-top: 40px;
+	
+}
+
+.knowledge hr{
+	border: 1px dotted #7C7A7B;
+	width:86%;
+}
+
+.knowledge ul li {
+	text-align: left;
+	font-weight: bold;
+	color:#161415;
+	font-family: sans-serif;
+
+}
+
+
+
+.hobby{
+	overflow: hidden;
+}
+
+.hobby h2{
+	text-align: left;
+	font-family: sans-serif;
+	color:#000;
+	text-transform: uppercase;
+	margin-left: 40px; 
+	margin-top: 40px;
+	
+}
+
+.hobby hr{
+	border: 1px dotted #7C7A7B;
+	width:86%;
+}
+
+.hobby ul li {
+	text-align: left;
+	font-weight: bold;
+	color:#161415;
+	font-family: sans-serif;
+}
+
+.right{
+	
+	overflow: hidden;
+	position: relative;
+	margin-left:550px;
+	
+
+	
+}
+
+.right h1{
+	margin-top: 30px;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: sans-serif;
+
+}
+.right P{
+	
+	width: 90%;
+	text-align: left;
+	font-family: sans-serif;
+}
+
+.career-history h2{
+	text-transform: uppercase;
+	width: 80%;
+	margin-left: :20px;
+}
+ 
+.career-history hr{
+	width:86%;
+	float: left;
+	border: 1px dotted #000;
+
+
+}
+
+.career-content{
+	overflow: hidden;
+	font-family: sans-serif;
+	width:80%;
+}
+
+.career-col{
+	margin-top:50px;
+	width:50%;
+	float: left;
+	text-align: center;
+
+}
+
+.career-col img{
+	
+}
+
+.career-col h2{
+	text-align: center;
+	
+}
+
+.career-col p{
+	text-align: center;
+}
+.training{
+	overflow: hidden;
+}
+
+.training h2{
+	
+	text-transform: uppercase;
+	width: 80%;
+	margin-left: :20px;
+}
+
+.training hr{
+	width:86%;
+	float: left;
+	border: 1px dotted #000;
+}
+
+.education{
+	overflow: hidden;
+}
+
+.education h2{
+	text-transform: uppercase;
+	width: 80%;
+	margin-left: :20px;
+}
+
+.education hr{
+	width:86%;
+	float: left;
+	border: 1px dotted #000;
+}
+
+.edu-col{
+	width:50%;
+	float:left;
+}
+
+.edu-col h2{
+	font-weight: bold;
+	font-family: sans-serif;
+	text-transform: uppercase;
+}
+
+.edu-col p span{
+	font-weight: bold;
+	font-size: 18px;
+}
+
